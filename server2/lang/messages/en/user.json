@@ -1,0 +1,13 @@
+{
+  "invalidEndpointMessage": "Address not found.",
+  "methodNotAllowedMessage": "Request type not allowed. Use GET or POST",
+  "selectSuccessMessage": "The matching rows are in the data field.",
+  "selectFailureMessage": "The query could not be run. See the error field for the reason.",
+  "insertSuccessMessage": "Patients were added to the table.",
+  "insertFailureMessage": "Patients could not be added to the table.",
+  "forbiddenQueryMessage": "Query is not allowed. Only SELECT queries can be run here.",
+  "invalidJsonMessage": "The request body is not valid JSON.",
+  "invalidPatientsMessage": "Send a non-empty array of patients, each with a name and a dateOfBirth as text.",
+  "createTableErrorMessage": "Error: Could not create the table: ",
+  "serverStartMessage": "Server on port"
+}
