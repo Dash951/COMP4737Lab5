@@ -103,7 +103,7 @@ class Server {
      * Handles the HTTP request, including CORS headers, OPTIONS preflight, and routing to GET or POST handlers.
      */
     async handleRequest(req, res) {
-        res.setHeader("Access-Control-Allow-Origin", "*"); // * Change to server one url
+        res.setHeader("Access-Control-Allow-Origin", "https://rajansidhu-comp4537.duckdns.org:8443");
         res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
         res.setHeader("Access-Control-Allow-Headers", "Content-Type");
 
